@@ -92,7 +92,7 @@ def carregaQuestoes(nome):
             x = r[y]
             x = str(x)
             print('        '+x+')'+str(dictQuestoes[x][0])+'?'+'   Nivel de Dificudade:'+str(dictQuestoes[x][6]))
-            print('                                                '+'Nome: '+str(nome)+'Score: '+str(pontuacao))
+            print('                                                '+'Nome: '+str(nome)+'  Score: '+str(pontuacao))
             z = 1
             fa.close
             while z <=4:

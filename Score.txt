@@ -1,1 +1,1 @@
-{"Iasmin": 55, "Joao": 3, "Gustavo": 19, "Jonas": 11, "Bruna": 13, "Tiago": 6, "Joaquim": 13, "Gabi": 6, "Lucas": 6, "Rafael ": 2, "jOAO VITOR": 2, "GG": 0, "ff": 0, "hj": 7, "jao": 0, "a": 15, "s": 12, "asd": 0, "fafd": 0}
+{"Iasmin": 16, "Joao": 20, "Gustavo": 19, "Jonas": 11, "Bruna": 13, "Tiago": 6, "Joaquim": 13, "Gabi": 6, "Lucas": 6, "Rafael ": 2}
