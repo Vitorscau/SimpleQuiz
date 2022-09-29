@@ -129,8 +129,9 @@ def cadastrarQuestoes():
     j = json.loads(data)
     dictQuestoes = j
     f = open("Questoes.txt", "r")
-    print('        ------------------------------------------')
-    numeroQuestao = (input('        Digite um numero para essa questão: '))
+    ultimaChave = list(dictQuestoes.keys())[-1]
+    proximoNumero = int(ultimaChave)+1
+    numeroQuestao = proximoNumero
     print('        ------------------------------------------')
     if  numeroQuestao in dictQuestoes:
         print('        numero da questão já existente tente novamente')
