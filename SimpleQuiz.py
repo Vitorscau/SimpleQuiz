@@ -245,10 +245,10 @@ while escolha != ('N'):
         print('''
         ===========[ MENU OPÇÕES ]=============
         ------------------------------------------
-        1. Adicionar Pergunta
-        2. Alterar Pergunta
-        3. Remover Pergunta
-        4. Buscar Pergunta
+        1. Adicionar Questão
+        2. Alterar Questão
+        3. Remover Questão
+        4. Buscar Questão
         5. Voltar ao Menu Principal
         ------------------------------------------
         
