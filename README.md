@@ -1,2 +1,2 @@
 # SimpleQuiz
- Projeto de Programação I UFRP.
+ Projeto de Programação I UFRPE.
