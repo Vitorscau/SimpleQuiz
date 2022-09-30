@@ -32,14 +32,14 @@ def buscaQuestoes():
     #Verificar se a questão está no dicionario e printar questão e resposta.
     if numeroQuestao in dictQuestoes:
             x = numeroQuestao
-            print(x+')'+str(dictQuestoes[x][0])+'?'+'  Nivel de Dificudade:'+str(dictQuestoes[x][6]))
+            print('        '+x+')'+str(dictQuestoes[x][0])+'?'+'   Nivel de Dificudade:'+str(dictQuestoes[x][6]))
             print()
-            y = 1
-            while y <=4:
-                print(dictQuestoes[x][y])
-                y+=1
+            z = 1
+            while z <=4:
+                print('        '+(dictQuestoes[x][z]))
+                z+=1
             
-            print('Resposta: '+str(dictQuestoes[x][5]))
+            print('        Resposta: '+str(dictQuestoes[x][5]))
     else:
         print('        A pergunta não está no banco de dados!')
         print('        ------------------------------------------')
@@ -117,6 +117,7 @@ def carregaQuestoes(nome):
                 print()
             else:
                 print('        Resposta Incorreta ')
+                print('        Resposta: '+resposta)
                 print('        ------------------------------------------')
                 print()
             k+= 1
